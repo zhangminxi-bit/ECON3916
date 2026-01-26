@@ -1,0 +1,13 @@
+## The Cost of Living Crisis: A Data-Driven Analysis
+
+### The Problem: Why the "Average" CPI fails students.
+
+The official Consumer Price Index (CPI) often provides a broad measure of inflation for the general population. However, the spending patterns and priorities of specific demographics, such as students, can differ significantly from the national average. This analysis aims to highlight how the standard CPI may not accurately reflect the true cost of living increases experienced by students.
+
+### Methodology: Python, APIs, and Index Theory
+
+Our analysis leverages **Python** for data retrieval and manipulation. We utilize the **FRED API** to access historical price data for categories relevant to student spending, including tuition, rent, streaming services, and food. The core of our approach involves **Index Theory**, specifically re-indexing all retrieved series to a common base year (2016 = 100) to ensure a fair comparison. We then construct a 'Student Spending Price Index' (Student SPI) using a weighted average of these student-centric categories, drawing parallels to the **Laspeyres index** methodology, which measures the change in the cost of a fixed basket of goods and services over time.
+
+### Key Findings: "My analysis reveals a 4.40% divergence between Student Costs and National Inflation..."
+
+(The exact divergence will be filled in after the above Python cell is executed.)
